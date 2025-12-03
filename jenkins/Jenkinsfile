@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Finish up'){
             steps {
-                sh " Code ran successfully"
+                sh "echo Code ran successfully"
             }
         }
     }
